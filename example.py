@@ -3,7 +3,7 @@ from typing import Annotated
 from fastapi import FastAPI, UploadFile
 from fastui.forms import FormFile
 from pydantic import BaseModel, Field
-from patched_fastui_forms import patched_fastui_form
+from patched_forms import patched_fastui_form
 
 app = FastAPI()
 
